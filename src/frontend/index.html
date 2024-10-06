@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Básico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CRUD Básico</h1>
+    <form id="crudForm">
+        <input type="text" id="autor" placeholder="Autor" required>
+        <input type="text" id="titulo" placeholder="Titulo" required>
+        <button type="submit">Agregar</button>
+    </form>
+    <table id="crudTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Autor</th>
+                <th>Titulo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se llenarán los datos -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
